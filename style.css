@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 255, 254);
+}
+
+header {
+    background-image: url("2bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+/* navbar area start here  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+    height: 70px;
+}
+
+.nav-left{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(119, 126, 126);
+}
+
+.nav-left img {
+    width: 100px; 
+}
+
+.home {
+    border-bottom: 2px solid purple;
+}
+
+.nav-right {
+    position: relative;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right a {
+    margin-top: -20px;
+}
+
+.nav-right a img {
+    position: absolute;
+    width: 70px;   
+    height: 20px;  
+}
+.nav-right p {
+    color: rgb(119, 126, 126);
+    margin: 10px;
+   padding: 10px;
+   z-index: 1;
+   font-size: 15px;
+}
+
+/* navbar area end here  */
+
+/* fisrt body start here  */
+
+.first-body {
+    height: 600px;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 { 
+    width: 500px;
+    height: 230px;
+}
+
+.marked {
+    display: flex;
+    font-size: 27px;
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+}
+
+.purpl {
+    color: rebeccapurple;
+    padding: 0px 13px;
+}
+
+.par {
+    color: rgb(165, 179, 179);
+    font-family: cursive;
+    font-size: 22px;
+}
+
+.sec1-1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 650px;
+    height: 650px;
+}
+
+.sec1-1 .img1 {
+    position: absolute;
+    width: 650px;
+    height: 640px;
+}
+
+.sec1-1 .img2 {
+    position: absolute;
+    width: 300px;
+}
+
+.sec1-1 .img3 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.sec1-1 .img3 .img3-1 {
+    position: absolute;
+    width: 500px; 
+}
+
+.sec2 img {
+    width: 1100px;
+    margin-top: -180px;
+}
+
+/* first body area end here */
+
+/* Header area end here  */
+
+/* middle body start here */
+
+.main-body {
+    margin-top: 150px;
+    height: 1000px;
+    position: relative;
+}
+
+.main-body .road {
+    width: 900px;
+    position: absolute;
+    left: 400px;
+    top: -75px;
+    z-index: -1;
+}
+
+.first-line {
+    display: flex;
+}
+
+.first-line-sec1 {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+    width: 280px;
+    height: 250px;
+}
+
+.first-line-sec1 img {
+    width: 200px;
+}
+
+.first-line-sec1 h4 {
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.first-line-sec1 p {
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+    font-size: 14px;
+}
+
+.first-line-sec2 {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    margin-left: 130px;
+    width: 320px;
+    height: 250px;
+}
+
+.first-line-sec2 img {
+    width: 200px;
+    margin-top: 140PX; 
+}
+
+.first-line-sec2 h4 {
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.first-line-sec2 p {
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+    font-size: 14px;
+}
+
+.sec-line {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.sec-line-1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.sec-line-1 img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.sec-line-1 div h5 { 
+    margin-left: 20px;
+    font-family: cursive ; 
+    color: white;
+    font-size: 15px;
+}
+
+.sec-line-1 div h1 { 
+    margin-left: 20px;
+    font-family: cursive ; 
+    color: white;
+    font-size: 35px;
+}
+
+.sec-line-2 {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    height: 250px;
+}
+
+.sec-line-2 img {
+    width: 230px;
+    margin-top: 140px;
+}
+
+.sec-line-2 h4 {
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.sec-line-2 p {
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+    font-size: 14px;
+}
+
+.third-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.third-line div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.third-line img {
+    width: 80%;
+}
+
+.third-line-1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.third-line-1 .imgmid {
+    width: 380px;
+}
+
+
+.third-line-1 h4 {
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.third-line-1 p {
+    font-family: cursive ; 
+    color: rgb(125, 130, 130);
+    font-size: 14px;
+}
+
+/* middle body end here  */ 
+
+/* footer start here  */
+
+.footer {
+    max-width: 100%;
+    height: 500px;
+    background-image: url("7footbg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.fo-sec1 {
+    display: flex;
+    margin: 30px 90px;
+    flex-direction: column;
+}
+
+.stores {
+    display: flex; 
+}
+
+.fo-sec1 .apple {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.apple img {
+    width: 23px;
+    height: 23px;
+}
+
+.fo-sec1 .gplay {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.gplay img {
+        width: 23px;
+        height: 23px;
+}
+
+.so-midea {
+    margin-left: 10px;
+}
+
+.insta {
+    margin: 4px;
+    width: 25px;
+    height: 25px;
+}
+
+.fac {
+    margin: 4px;
+    width: 17px;
+    height: 25px;
+}
+
+.what {
+    margin: 4px;
+    width: 25px;
+    height: 25px;
+}
+
+.links a {
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.fo-sec2 img {
+    width: 580px;
+    margin-right: 210px;
+}
+
+/* footer end here  */
+
+
+
+
+
+
+
